@@ -3,6 +3,8 @@ PORTIGEN - Power To Go, Mobilne rozwiązanie dla Edge Computing, power station n
 
 
 + instrukcja użytkownika
+  + ładowanie
+  + rozładowanie
 + specyfikacja
 + pomiary i obliczenia
 + certyfikat CE
