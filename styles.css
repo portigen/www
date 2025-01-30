@@ -69,6 +69,13 @@ body {
     text-decoration: none;
 }
 
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
 .nav-menu {
     display: flex;
     gap: 2rem;
