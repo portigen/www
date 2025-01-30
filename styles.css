@@ -310,3 +310,44 @@ body {
 .py-4 { padding-top: 1rem; padding-bottom: 1rem; }
 .py-8 { padding-top: 2rem; padding-bottom: 2rem; }
 .py-16 { padding-top: 4rem; padding-bottom: 4rem; }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f5f5f5;
+}
+
+.feature-list {
+    padding-left: 20px;
+}
+
+hr {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #eee;
+}
+
+.citations {
+    font-size: 0.9em;
+    color: #666;
+}
+
+h2, h3 {
+    color: #2c2c2c;
+    margin-top: 30px;
+}
+
+strong {
+    font-weight: 600;
+}
