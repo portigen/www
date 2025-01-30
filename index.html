@@ -4,214 +4,183 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTIGEN - Edge Computing Power Station</title>
-    <style>
-        /* Existing styles remain unchanged */
-        .hover-card {
-            transition: transform 0.3s ease-in-out;
-        }
-        
-        .hover-card:hover {
-            transform: translateY(-5px);
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        .animate-gradient {
-            background: linear-gradient(270deg, #1e3a8a, #1e40af, #1d4ed8);
-            background-size: 600% 600%;
-            animation: gradientBG 15s ease infinite;
-        }
-
-        @keyframes gradientBG {
-            0% { background-position: 0% 50%; }
-            50% { background-position: 100% 50%; }
-            100% { background-position: 0% 50%; }
-        }
-
-        .glow-button {
-            transition: all 0.3s ease;
-            box-shadow: 0 0 0 rgba(255,255,255,0);
-        }
-
-        .glow-button:hover {
-            box-shadow: 0 0 20px rgba(255,255,255,0.3);
-            transform: scale(1.02);
-        }
-
-        .input-effect {
-            transition: border-color 0.3s ease;
-            border: 2px solid transparent;
-        }
-
-        .input-effect:focus {
-            border-color: #1e40af;
-            outline: none;
-        }
-
-        .fade-in {
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeIn 0.8s ease forwards;
-        }
-
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-gray-50">
-    <nav class="bg-gradient-to-r from-blue-900 to-blue-700 text-white">
-        <div class="container mx-auto px-4 py-6">
-            <div class="flex justify-between items-center">
-                <h1 class="text-3xl font-bold">PORTIGEN</h1>
-                <img src="portigen.png" alt="PORTIGEN Logo" />
-                <div class="space-x-6">
-                    <a href="#about" class="hover:text-blue-200">O nas</a>
-                    <a href="#features" class="hover:text-blue-200">Funkcje</a>
-                    <a href="#comparison" class="hover:text-blue-200">Porównanie</a>
-                    <a href="#contact" class="bg-white text-blue-900 px-4 py-2 rounded-lg hover:bg-blue-50">Kontakt</a>
-                </div>
+<body>
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#" class="nav-logo">PORTIGEN</a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">O nas</a>
+                <a href="#features" class="nav-link">Funkcje</a>
+                <a href="#comparison" class="nav-link">Porównanie</a>
+                <a href="#contact" class="nav-link nav-cta">Kontakt</a>
             </div>
         </div>
     </nav>
 
-    <header class="bg-blue-900 text-white py-20">
-        <div class="container mx-auto px-4 text-center">
-            <h2 class="text-4xl md:text-6xl font-bold mb-6">Power To Go</h2>
-            <p class="text-xl mb-8">Mobilne rozwiązanie dla Edge Computing, power station na stojaku lub kotwie umożliwiające osadzenie power station jako wieży sensorycznej w dowolnym miejscu na chwilę bądź na lata</p>
-            <button class="bg-white text-blue-900 px-8 py-3 rounded-lg font-bold hover:bg-blue-50 transition-colors glow-button">
-                Poznaj PORTIGEN
-            </button>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1 class="mb-4">Power To Go</h1>
+                <p class="mb-8">Mobilne rozwiązanie dla Edge Computing, power station na stojaku lub kotwie umożliwiające osadzenie power station jako wieży sensorycznej w dowolnym miejscu na chwilę bądź na lata</p>
+                <a href="#about" class="btn btn-primary">Poznaj PORTIGEN</a>
+            </div>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <section id="about" class="py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h3 class="text-3xl font-bold text-center mb-12">Czym jest Portigen?</h3>
-                <p class="text-lg mb-8">
-                    Portigen to nowoczesna stacja zasilania, która specjalizuje się w <strong>edge computing</strong>, czyli przetwarzaniu danych blisko źródła, co pozwala na minimalizację opóźnień. Nasze rozwiązanie oferuje niespotykane dotąd możliwości w zakresie autonomii i modułowości.
-                </p>
+    <section id="about" class="py-16">
+        <div class="container">
+            <h2 class="text-center mb-8">Czym jest Portigen?</h2>
+            <div class="card fade-in">
+                <p>Portigen to nowoczesna stacja zasilania, która specjalizuje się w <strong>edge computing</strong>, czyli przetwarzaniu danych blisko źródła, co pozwala na minimalizację opóźnień. Nasze rozwiązanie oferuje niespotykane dotąd możliwości w zakresie autonomii i modułowości.</p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="features" class="py-16 bg-gray-50">
-            <div class="container mx-auto px-4">
-                <h3 class="text-3xl font-bold text-center mb-12">Kluczowe Cechy</h3>
-                <div class="grid md:grid-cols-3 gap-8">
-                    <div class="p-6 border rounded-xl hover:shadow-lg transition-shadow hover-card">
-                        <h4 class="text-xl font-bold mb-4">Autonomia</h4>
-                        <p>450Wh pojemności zapewniająca tygodnie niezależnej pracy, minimalizując potrzebę częstego ładowania i konserwacji.</p>
-                    </div>
-                    <div class="p-6 border rounded-xl hover:shadow-lg transition-shadow hover-card">
-                        <h4 class="text-xl font-bold mb-4">Edge Computing</h4>
-                        <p>Przetwarzanie danych blisko źródła z latencją poniżej 5ms, w porównaniu do 50-200ms w rozwiązaniach chmurowych.</p>
-                    </div>
-                    <div class="p-6 border rounded-xl hover:shadow-lg transition-shadow hover-card">
-                        <h4 class="text-xl font-bold mb-4">Modułowość</h4>
-                        <p>Elastyczna konstrukcja umożliwiająca dostosowanie do różnych potrzeb i łatwą integrację z istniejącymi systemami.</p>
-                    </div>
+    <section id="features" class="py-16 bg-secondary">
+        <div class="container">
+            <h2 class="text-center mb-8">Kluczowe Cechy</h2>
+            <div class="grid grid-cols-3">
+                <div class="card fade-in">
+                    <img src="/api/placeholder/48/48" alt="Autonomia" class="feature-icon">
+                    <h3 class="mb-4">Autonomia</h3>
+                    <p>450Wh pojemności zapewniająca tygodnie niezależnej pracy, minimalizując potrzebę częstego ładowania i konserwacji.</p>
+                </div>
+                <div class="card fade-in">
+                    <img src="/api/placeholder/48/48" alt="Edge Computing" class="feature-icon">
+                    <h3 class="mb-4">Edge Computing</h3>
+                    <p>Przetwarzanie danych blisko źródła z latencją poniżej 5ms, w porównaniu do 50-200ms w rozwiązaniach chmurowych.</p>
+                </div>
+                <div class="card fade-in">
+                    <img src="/api/placeholder/48/48" alt="Modułowość" class="feature-icon">
+                    <h3 class="mb-4">Modułowość</h3>
+                    <p>Elastyczna konstrukcja umożliwiająca dostosowanie do różnych potrzeb i łatwą integrację z istniejącymi systemami.</p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="comparison" class="py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h3 class="text-3xl font-bold text-center mb-12">Porównanie z Konkurencją</h3>
-                <div class="overflow-x-auto">
-                    <table class="w-full border-collapse">
-                        <thead>
-                            <tr class="bg-blue-900 text-white">
-                                <th class="p-4 text-left">Cecha</th>
-                                <th class="p-4 text-left">Portigen</th>
-                                <th class="p-4 text-left">Typowe rozwiązania</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="border-b">
-                                <td class="p-4 font-medium">Autonomia</td>
-                                <td class="p-4">500 Wh (tygodnie pracy)</td>
-                                <td class="p-4">Częstsze ładowanie/wymiana baterii</td>
-                            </tr>
-                            <tr class="border-b">
-                                <td class="p-4 font-medium">Latencja</td>
-                                <td class="p-4">Przetwarzanie lokalne (<5 ms)</td>
-                                <td class="p-4">Zależność od chmury (50-200 ms)</td>
-                            </tr>
-                            <tr class="border-b">
-                                <td class="p-4 font-medium">Architektura</td>
-                                <td class="p-4">Zoptymalizowana pod edge computing</td>
-                                <td class="p-4">Głównie zasilanie bez integracji z IT</td>
-                            </tr>
-                        </tbody>
-                    </table>
+    <section id="comparison" class="py-16">
+        <div class="container">
+            <h2 class="text-center mb-8">Porównanie z Konkurencją</h2>
+            <div class="table-container fade-in">
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Cecha</th>
+                            <th>Portigen</th>
+                            <th>Typowe rozwiązania</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Autonomia</td>
+                            <td>500 Wh (tygodnie pracy)</td>
+                            <td>Częstsze ładowanie/wymiana baterii</td>
+                        </tr>
+                        <tr>
+                            <td>Latencja</td>
+                            <td>Przetwarzanie lokalne (<5 ms)</td>
+                            <td>Zależność od chmury (50-200 ms)</td>
+                        </tr>
+                        <tr>
+                            <td>Architektura</td>
+                            <td>Zoptymalizowana pod edge computing</td>
+                            <td>Głównie zasilanie bez integracji z IT</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="business-benefits" class="py-16 bg-secondary">
+        <div class="container">
+            <h2 class="text-center mb-8">Korzyści Biznesowe</h2>
+            <div class="grid grid-cols-2">
+                <div class="card fade-in">
+                    <h3 class="mb-4">Efektywność Operacyjna</h3>
+                    <ul>
+                        <li class="mb-2">✓ 60% mniejsze zużycie energii</li>
+                        <li class="mb-2">✓ Szybsze przetwarzanie danych</li>
+                        <li class="mb-2">✓ Redukcja kosztów operacyjnych</li>
+                    </ul>
+                </div>
+                <div class="card fade-in">
+                    <h3 class="mb-4">Wsparcie dla Innowacji</h3>
+                    <ul>
+                        <li class="mb-2">✓ Analityka w czasie rzeczywistym</li>
+                        <li class="mb-2">✓ Elastyczna skalowalność</li>
+                        <li class="mb-2">✓ Łatwa integracja z IoT</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="business-benefits" class="py-16 bg-gray-50">
-            <div class="container mx-auto px-4">
-                <h3 class="text-3xl font-bold text-center mb-12">Korzyści Biznesowe</h3>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div class="bg-white p-8 rounded-xl shadow-lg hover-card">
-                        <h4 class="text-xl font-bold mb-4">Efektywność Operacyjna</h4>
-                        <ul class="space-y-3">
-                            <li>✓ 60% mniejsze zużycie energii</li>
-                            <li>✓ Szybsze przetwarzanie danych</li>
-                            <li>✓ Redukcja kosztów operacyjnych</li>
+    <section id="technical-specs" class="py-16">
+        <div class="container">
+            <h2 class="text-center mb-8">Specyfikacja Techniczna</h2>
+            <div class="card fade-in">
+                <div class="grid grid-cols-2">
+                    <div>
+                        <h3 class="mb-4">Parametry Zasilania</h3>
+                        <ul>
+                            <li class="mb-2">✓ Pojemność: 450Wh</li>
+                            <li class="mb-2">✓ Długi czas pracy</li>
+                            <li class="mb-2">✓ Efektywne zarządzanie energią</li>
                         </ul>
                     </div>
-                    <div class="bg-white p-8 rounded-xl shadow-lg hover-card">
-                        <h4 class="text-xl font-bold mb-4">Wsparcie dla Innowacji</h4>
-                        <ul class="space-y-3">
-                            <li>✓ Analityka w czasie rzeczywistym</li>
-                            <li>✓ Elastyczna skalowalność</li>
-                            <li>✓ Łatwa integracja z IoT</li>
+                    <div>
+                        <h3 class="mb-4">Edge Computing</h3>
+                        <ul>
+                            <li class="mb-2">✓ Latencja <5ms</li>
+                            <li class="mb-2">✓ Lokalne przetwarzanie danych</li>
+                            <li class="mb-2">✓ Zaawansowana analityka</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="contact" class="py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h3 class="text-3xl font-bold text-center mb-12">Skontaktuj się z nami</h3>
-                <div class="max-w-lg mx-auto">
-                    <form class="space-y-6">
-                        <input type="text" placeholder="Nazwa firmy" class="w-full p-3 border rounded-lg input-effect">
-                        <input type="email" placeholder="Email" class="w-full p-3 border rounded-lg input-effect">
-                        <textarea placeholder="Wiadomość" class="w-full p-3 border rounded-lg h-32 input-effect"></textarea>
-                        <button class="w-full bg-blue-900 text-white py-3 rounded-lg hover:bg-blue-800 transition-colors glow-button">
-                            Wyślij
-                        </button>
-                    </form>
+    <section id="contact" class="py-16 bg-secondary">
+        <div class="container">
+            <h2 class="text-center mb-8">Skontaktuj się z nami</h2>
+            <form class="contact-form fade-in">
+                <div class="mb-4">
+                    <input type="text" placeholder="Nazwa firmy" class="form-input" required>
                 </div>
-            </div>
-        </section>
-    </main>
+                <div class="mb-4">
+                    <input type="email" placeholder="Email" class="form-input" required>
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Wiadomość" class="form-textarea" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary w-full">Wyślij</button>
+            </form>
+        </div>
+    </section>
 
-    <footer class="bg-gray-800 text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="grid md:grid-cols-3 gap-8">
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
                 <div>
-                    <h4 class="font-bold mb-4">PORTIGEN</h4>
+                    <h4 class="mb-4">PORTIGEN</h4>
                     <p>Power To Go - Edge Computing Solution</p>
                 </div>
                 <div>
-                    <h4 class="font-bold mb-4">Kontakt</h4>
+                    <h4 class="mb-4">Kontakt</h4>
                     <p>info@portigen.com</p>
                     <p>+48 000 000 000</p>
                 </div>
                 <div>
-                    <h4 class="font-bold mb-4">Social Media</h4>
-                    <div class="space-x-4">
-                        <a href="#" class="hover:text-blue-400">LinkedIn</a>
-                        <a href="#" class="hover:text-blue-400">Twitter</a>
+                    <h4 class="mb-4">Social Media</h4>
+                    <div class="mb-4">
+                        <a href="#" class="footer-link mr-4">LinkedIn</a>
+                        <a href="#" class="footer-link">Twitter</a>
                     </div>
                 </div>
             </div>
