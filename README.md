@@ -134,58 +134,66 @@ Te produkty oferują różnorodne możliwości zasilania i są dostosowane do po
 [10] https://powerstore.com/bluetti-ac240p-portable-power-station-2-400w-1-843wh-lifepo4.html
 
 
-## Specyfikacja
+## Oferta
 
-Odkryj niezawodne źródło zasilania dla systemów IoT z mobilną wieżą PORTIGEN PS-500W12V. Zaprojektowana do długotrwałej pracy w terenie, zasila urządzenia brzegowe AI, systemy monitoringu, stacje pomiarowe i węzły IoT nawet w trudnych warunkach atmosferycznych.
+Odkryj niezawodne źródło zasilania dla systemów IoT z mobilną wieżą PORTIGEN PS-500W12V. 
+Zaprojektowana do długotrwałej pracy w terenie, zasila urządzenia brzegowe AI, systemy monitoringu, stacje pomiarowe i węzły IoT nawet w trudnych warunkach atmosferycznych.
 
-✅ Specyfikacja Techniczna
+
+
+## Specyfikacja Techniczna
 
 Pojemność: 500Wh
-
 Napięcie wyjściowe DC: 12V
-
-Napięcie wejściowe: 14-15V DC
-
-Maksymalny prąd wyjściowy: 4A
-
+Maksymalny prąd wyjściowy i wejściowy: 4A
+Napięcie wejściowe ładowania: 14-15V DC
 Temperatura pracy: -20°C ~ 40°C
-
 Wysokość: 600mm
-
 Szerokość/Średnica: 160mm
-
 Waga: 16 kg
-
 Obudowa: IP67
 
-✅ Czas Pracy bez panelu fotowoltaicznego:
 
-LoRaWAN (0.00464W): 107,758h = 4,490 dni
+## PORTIGEN PS-500W12V
 
-RPi Zero (0.5W): 1000h = 42 dni
+PORTIGEN PS-500W12V - Przenośna Stacja Zasilająca o wymiarach 60 cm wysokości, 16 cm średnicy. Służy do zasilania urządzeń pomiarowych i komunikacyjnych w terenie. Działa jak power bank o dużej mocy, ale w wersji przemysłowej power station.
 
-✅ Ładowanie
+### Główne cechy:
+• Długi czas pracy na baterii - do 42 dni dla małego komputera
+• Wodoodporna obudowa (IP67) - można zostawić w deszczu
+• Łatwy transport - waży 16 kg, ma wygodny pasek do przenoszenia
+• Możliwość stałego montażu na ziemi lub ścianie
+• Zabezpieczenie przed kradzieżą
+• Może być ładowana z paneli słonecznych
 
-Z sieci AC: 8.3h
+### Do czego służy?
+• Zasilanie kamer monitoringu w miejscach bez prądu
+• Stacje pomiarowe w terenie (np. do badania pogody)
+• Zasilanie urządzeń internetowych (IoT) poza miastem
+• Stacje nadawcze dla sieci bezprzewodowych
 
-Panel solarny: 10h (przy 100W)
+### Dane techniczne w skrócie:
+• Moc: 500Wh (jak 40 powerbanków do telefonu)
+• Napięcie: 12V
+• Czas ładowania: 8-10 godzin
+• Temperatura pracy: od -20°C do +40°C
 
-Możliwość pracy podczas ładowania
+### W zestawie:
+• Wieża zasilająca
+• Pasek do noszenia
+• Instrukcja
+• Gwarancja
 
-✅ W Zestawie
+### Jak dbać o urządzenie:
+• Ładować co 6 miesięcy podczas przechowywania
+• Nie rozładowywać poniżej 50% pojemności
+• Używać w temperaturach od -20°C do +40°C
 
-Wieża PS-500
+### Czas Pracy bez panelu fotowoltaicznego:
+• LoRaWAN (0.00464W): 107,758h = 4,490 dni
+• RPi Zero (0.5W): 1000h = 42 dni
 
-Instrukcja obsługi
-
-Pasek do przenoszenia wieży
-
-Karta gwarancyjna
-
-✅ Zalecana Eksploatacja
-
-Ładowanie co 6 miesięcy przy magazynowaniu
-
-Utrzymywanie poziomu naładowania powyżej 50%
-
-Temperatura pracy: -20°C do +40°C
+### Ładowanie:
+• Z sieci AC: 8.3h
+• Panel solarny: 10h (przy 100W)
+• Możliwość pracy podczas ładowania
