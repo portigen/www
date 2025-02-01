@@ -134,3 +134,59 @@ Te produkty oferują różnorodne możliwości zasilania i są dostosowane do po
 [10] https://powerstore.com/bluetti-ac240p-portable-power-station-2-400w-1-843wh-lifepo4.html
 
 
+## Specyfikacja
+
+
+Odkryj niezawodne źródło zasilania dla systemów IoT z mobilną wieżą PORTIGEN PMT-500. Zaprojektowana do długotrwałej pracy w terenie, zasila urządzenia brzegowe AI, systemy monitoringu, stacje pomiarowe i węzły IoT nawet w trudnych warunkach atmosferycznych.
+
+✅ Specyfikacja Techniczna
+
+Pojemność: 500Wh
+
+Napięcie wyjściowe DC: 12V
+
+Napięcie wejściowe: 14-15V DC
+
+Maksymalny prąd wyjściowy: 4A
+
+Temperatura pracy: -20°C ~ 40°C
+
+Wysokość: 600mm
+
+Szerokość/Średnica: 160mm
+
+Waga: 16 kg
+
+Obudowa: IP67
+
+✅ Czas Pracy bez panelu fotowoltaicznego:
+
+LoRaWAN (0.00464W): 107,758h = 4,490 dni
+
+RPi Zero (0.5W): 1000h = 42 dni
+
+✅ Ładowanie
+
+Z sieci AC: 8.3h
+
+Panel solarny: 10h (przy 100W)
+
+Możliwość pracy podczas ładowania
+
+✅ W Zestawie
+
+Wieża PS-500
+
+Instrukcja obsługi
+
+Pasek do przenoszenia wieży
+
+Karta gwarancyjna
+
+✅ Zalecana Eksploatacja
+
+Ładowanie co 6 miesięcy przy magazynowaniu
+
+Utrzymywanie poziomu naładowania powyżej 50%
+
+Temperatura pracy: -20°C do +40°C
