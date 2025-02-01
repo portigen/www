@@ -189,7 +189,3 @@ Karta gwarancyjna
 Utrzymywanie poziomu naładowania powyżej 50%
 
 Temperatura pracy: -20°C do +40°C
-
-Utrzymywanie poziomu naładowania powyżej 50%
-
-Temperatura pracy: -20°C do +40°C
