@@ -136,8 +136,7 @@ Te produkty oferują różnorodne możliwości zasilania i są dostosowane do po
 
 ## Specyfikacja
 
-
-Odkryj niezawodne źródło zasilania dla systemów IoT z mobilną wieżą PORTIGEN PMT-500. Zaprojektowana do długotrwałej pracy w terenie, zasila urządzenia brzegowe AI, systemy monitoringu, stacje pomiarowe i węzły IoT nawet w trudnych warunkach atmosferycznych.
+Odkryj niezawodne źródło zasilania dla systemów IoT z mobilną wieżą PORTIGEN PS-500W12V. Zaprojektowana do długotrwałej pracy w terenie, zasila urządzenia brzegowe AI, systemy monitoringu, stacje pomiarowe i węzły IoT nawet w trudnych warunkach atmosferycznych.
 
 ✅ Specyfikacja Techniczna
 
@@ -186,6 +185,10 @@ Karta gwarancyjna
 ✅ Zalecana Eksploatacja
 
 Ładowanie co 6 miesięcy przy magazynowaniu
+
+Utrzymywanie poziomu naładowania powyżej 50%
+
+Temperatura pracy: -20°C do +40°C
 
 Utrzymywanie poziomu naładowania powyżej 50%
 
