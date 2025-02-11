@@ -197,3 +197,95 @@ PORTIGEN PS-500W12V - Przenośna Stacja Zasilająca o wymiarach 60 cm wysokości
 • Z sieci AC: 8.3h
 • Panel solarny: 10h (przy 100W)
 • Możliwość pracy podczas ładowania
+
+
+## Standardized vs Non-Standard: Challenges in Building a Low-Cost IoT Gateway 🌟
+
+When building an IoT gateway, whether it's for LoRaWAN or any other communication protocol, choosing between standardized and non-standard solutions can significantly impact the project's success. Let’s break down the key challenges of creating a low-cost, solar-powered LoRaWAN gateway (like the one described [here](https://www.disk91.com/2020/technology/lora/low-cost-outdoor-solar-powered-lorawan-gateway/)) compared to using a standardized, off-the-shelf solution like those from **Portigen** ([portigen.com](https://www.portigen.com/)).
+
+---
+
+### **Challenges of Non-Standard Solutions**
+
+#### 1. **Compatibility Issues**
+   - **Non-Standard**: Using custom or non-standard components often leads to compatibility problems with existing networks, software stacks, or even hardware interfaces.
+   - **Standardized (Portigen)**: Pre-built gateways ensure seamless integration with industry-standard protocols (e.g., LoRaWAN) and cloud platforms, reducing configuration headaches.
+
+#### 2. **Scalability Concerns**
+   - **Non-Standard**: Scaling a custom-built system can be difficult due to limited availability of compatible parts or lack of documentation.
+   - **Standardized (Portigen)**: Designed for scalability, these devices allow easy expansion as your network grows, ensuring long-term viability.
+
+#### 3. **Maintenance & Support**
+   - **Non-Standard**: Finding support, spare parts, or troubleshooting guides for proprietary or rare components can be time-consuming and costly.
+   - **Standardized (Portigen)**: With established manufacturers, you benefit from robust customer support, firmware updates, and readily available replacement parts.
+
+#### 4. **Energy Management**
+   - **Non-Standard**: Optimizing energy consumption for reliable operation under varying weather conditions requires extensive testing and optimization.
+   - **Standardized (Portigen)**: Built-in power management features ensure efficient energy usage, making them ideal for solar-powered deployments without additional effort.
+
+#### 5. **Certification Compliance**
+   - **Non-Standard**: Ensuring compliance with regional regulations (e.g., FCC, CE, IC) can add complexity and cost to the development process.
+   - **Standardized (Portigen)**: Pre-certified devices save time and money by meeting all necessary regulatory requirements out-of-the-box.
+
+#### 6. **Reliability & Durability**
+   - **Non-Standard**: Custom builds may not withstand harsh environmental conditions unless carefully designed and tested.
+   - **Standardized (Portigen)**: Industrial-grade materials and rigorous testing guarantee durability in outdoor environments.
+
+#### 7. **Initial Development Time**
+   - **Non-Standard**: Building a custom solution from scratch demands significant R&D investment, delaying deployment.
+   - **Standardized (Portigen)**: Plug-and-play functionality allows rapid deployment, accelerating time-to-market.
+
+#### 8. **Cost Trade-offs**
+   - **Non-Standard**: While initial material costs may seem lower, hidden expenses related to development, testing, and maintenance can quickly outweigh savings.
+   - **Standardized (Portigen)**: The upfront cost is higher but includes reliability, ease of use, and reduced operational expenses over time.
+
+---
+
+### **Why Choose Standardized Solutions?**
+
+While DIY projects offer flexibility and customization, they come with inherent risks and complexities. On the other hand, standardized solutions like Portigen's products provide:
+
+- **Proven Reliability**: Tested and trusted by professionals worldwide.
+- **Ease of Use**: Simple setup and management through intuitive interfaces.
+- **Future-Proofing**: Designed to adapt to evolving technologies and standards.
+- **Cost Efficiency Over Time**: Lower total cost of ownership due to minimized downtime and maintenance.
+
+
+
+### Final Thoughts
+
+Building a low-cost, non-standard station is undoubtedly a fascinating challenge that fosters innovation. However, when considering factors like scalability, reliability, and long-term costs, standardized solutions often prove more practical for real-world applications.
+
+Have you faced similar trade-offs in your IoT projects? Do you prefer rolling your own solutions or relying on proven hardware? Share your experiences below! 💡  
+
+#IoT #LoRaWAN #SolarPower #CustomSolutions #StandardizedTech #Portigen #GatewayTechnology
+
+
+
+
+## Comparison table for both non-standardized solutions and Portigen:
+
+---
+
+| **Topic**                  | **Non-Standardized Solution** | **Portigen Standardized Solution** |
+|-----------------------------|-------------------------------|-------------------------------------|
+| **Compatibility**           | ❌ Limited compatibility with standard networks/software stacks. | ✅ Fully compatible with LoRaWAN and other industry standards. |
+| **Scalability**             | ❌ Difficult to scale due to custom components. | ✅ Designed for easy scalability as your network grows. |
+| **Maintenance & Support**   | ❌ Limited support and spare parts availability. | ✅ Robust customer support and readily available replacement parts. |
+| **Energy Management**       | ❌ Requires extensive testing for efficient energy usage. | ✅ Built-in power management ensures optimal energy efficiency. |
+| **Certification Compliance**| ❌ Additional effort required for regulatory compliance (FCC, CE, etc.). | ✅ Pre-certified for global use, saving time and resources. |
+| **Reliability & Durability**| ❌ May not withstand harsh environmental conditions without extra design work. | ✅ Industrial-grade durability tested for outdoor use. |
+| **Initial Development Time**| ❌ Significant R&D investment delays deployment. | ✅ Plug-and-play functionality speeds up deployment. |
+| **Cost Efficiency**         | ❌ Hidden costs in development, testing, and maintenance can outweigh initial savings. | ✅ Lower total cost of ownership with minimized downtime and maintenance. |
+
+---
+
+### Key Takeaways:
+- While non-standardized solutions offer flexibility and potential cost savings upfront, they often come with significant challenges in terms of compatibility, scalability, and long-term maintenance.
+- Portigen's standardized solutions provide reliability, ease of use, and future-proofing, making them ideal for professional-grade IoT deployments.
+
+What do you think? 
+Does this table help clarify the trade-offs between custom builds and standardized hardware? Let me know your thoughts! 💡  
+
+#IoT #LoRaWAN #Comparison #Portigen #CustomVsStandard
+
